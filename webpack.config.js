@@ -11,7 +11,7 @@ const postCSSPlugins = [
 module.exports = {
     entry: './app/assets/scripts/App.js',
     output: {
-        filename: 'budled.js',
+        filename: 'bundled.js',
         path: path.resolve(__dirname, 'app')
     },
     devServer: {
